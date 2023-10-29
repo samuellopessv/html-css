@@ -55,6 +55,16 @@ section.imagem{
     background-position: center;
     position: relative;
 }
+section.imagem1{
+    background-color: rgb(51, 51, 51);
+    color:white;
+    background-image: url('imagens/background002.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.26);
     display: inline-block;
