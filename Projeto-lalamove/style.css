@@ -14,12 +14,25 @@ nav{
     text-align: center;
     background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.705)),
     url('imagens/banner1.webp');
-     height: 100%;
-     background-attachment: fixed;
-     background-size: cover;
-     background-position: center center;
-     position: relative;
-     padding: 30px;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding: 30px;
+    
+}
+nav:hover{
+    
+    background-image: linear-gradient(to right, transparent, rgb(238, 124, 17)),
+    url('imagens/banner1.webp');
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding: 30px;
+    
 }
 nav > a{
     color: rgb(255, 255, 255);
@@ -60,4 +73,23 @@ nav > a:hover{
     text-shadow: 4px 10px 20px rgba(0, 0, 0, 0.781);
     color: white;
 
+}
+#cont1 > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-bottom:30px ;
+}
+#cont1 > button{
+    background: linear-gradient(orange, darkorange);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
 }
