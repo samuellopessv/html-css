@@ -82,14 +82,25 @@ nav > a:hover{
     padding-bottom:30px ;
 }
 #cont1 > button{
-    background: linear-gradient(orange, darkorange);
+    background: linear-gradient(to right, orange, rgb(255, 94, 0));
     color: white;
-    padding: 10px 20px;
+    padding: 10px;
     border: none;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
     cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 150px;
+}
+#cont1 > button:hover{
+    background: linear-gradient(to right, rgb(58, 58, 58), rgb(68, 68, 68));
+    color: orangered;
+}
+section > div{
+    background-color: orange;
+    width: 5;
 }
