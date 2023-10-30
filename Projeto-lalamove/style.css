@@ -15,9 +15,9 @@ nav{
     background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.705)),
     url('imagens/banner1.webp');
     height: 100%;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
+    
+    
+    background-position: left left;
     position: relative;
     padding: 30px;
     
@@ -61,7 +61,7 @@ nav > a:hover{
     background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.705)),
    url('imagens/banner1.webp');
     height: 100%;
-    background-attachment: fixed;
+    
     background-size: cover;
     background-position: center center;
     position: relative;
