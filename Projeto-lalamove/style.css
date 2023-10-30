@@ -126,8 +126,14 @@ section > div{
 @media (max-width: 768px) {
     section > div {
         width: 80%;
-        margin-top: 2%;
+        margin-top: 3%;
+        text-align: center;
         height: auto; /* Tornar a altura automática para ajustar o conteúdo */
+    }
+}
+@media (max-width: 768px) {
+    #caixa {
+      margin-top: 26%;
     }
 }
 section > div:hover{
