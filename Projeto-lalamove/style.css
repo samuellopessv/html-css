@@ -111,13 +111,13 @@ section > div{
     display: inline-block;
     width: 260px;
     height: 245px;
-    background-color: #f7620c;
+    background: linear-gradient(to right, rgb(255, 81, 0), rgb(255, 94, 0));
     margin: auto;
-    position: relative;
+    position:relative;
     top: 50%;
     transform: translateY(-50%);
     text-align: left;
-    border: 1px solid #ccc;
+    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-left: 5%;
 }
@@ -129,11 +129,57 @@ section > div{
         height: auto; /* Tornar a altura automática para ajustar o conteúdo */
     }
 }
+section > div:hover{
+    background: linear-gradient(to right, rgb(53, 52, 52), rgb(44, 44, 43));
+}
 
 
 #caixa{
+    
+    text-align: center;   
+}
 
-    text-align: center;
- 
+.div1{
+    
+    display: flex;
+    align-items: center;
+}
+#caixa  h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+   
+    
+}
+#caixa p{
+    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-top: 20px;
+    
+    
+}
+#caixa .p1 > p{
+    
+    color: rgb(255, 255, 255);
+    
+    font-weight: bold;
+     
+}
+.imgdiv{
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+}
+.linkdiv{
+    text-decoration: none;
+    
+}
+.link{
+     text-decoration: none;
+            
+    
     
 }
