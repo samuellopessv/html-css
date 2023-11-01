@@ -13,6 +13,7 @@
             width: 500px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
         }
         th,td{
             border: 1px solid black;
@@ -20,7 +21,7 @@
             
         }
         thead,tfoot{
-            background-color: grey;
+            background-color: rgb(59, 59, 59);
             color: white;
         }
         .num{
@@ -33,6 +34,15 @@
             font-weight: bold;
             
         }
+       
+            tr:nth-child(2n){
+                background-color: rgb(173, 173, 173);
+            }
+            thead > tr > th{
+                position: sticky;
+                top: -1px;
+                background-color: rgb(66, 66, 66);
+            }
     </style>
 </head>
 <body>
