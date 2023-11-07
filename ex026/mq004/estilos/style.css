@@ -1,0 +1,42 @@
+@charset "UTf-8";
+/*Versão Mobile Fist */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    
+    height: 100dvh;
+}
+body{
+    background: black url(../imagens/back-phone.jpg) no-repeat  ;
+    background-size: cover;
+    background-position: center center;
+}
+main{
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.61);
+    width: 90vw;
+    margin: auto;
+    border-radius:10px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+img#phone{display: block;}
+img#tablet{display: none;}
+img#print{display: none;}
+img#pc{display: none;}
+img#tv{display: none;}
