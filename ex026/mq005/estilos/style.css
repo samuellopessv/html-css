@@ -53,12 +53,13 @@ menu > ul > li >a:hover{
 }
 
 main{
-    width: 75vw;
+    width: 85vw;
     background-color: white;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
    
     
 
