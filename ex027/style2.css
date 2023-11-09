@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.accordion{
+    width: 50px;
+    height: 100vh;
+    margin: 0px;
+    padding: 0;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 2px solid white;
+    transition: all 600ms cubic-bezier(0.075, 0.82, 0.165,1);
+    
+    
+}
+.container{
+    display: flex;
+    background-color: orangered;
+    
+}
+div.accordion:hover{
+    flex-basis: 65em;
+
+    
+}
+h1,p{
+    color: rgb(255, 255, 255);
+
+}
+.caixa1{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.507);
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
